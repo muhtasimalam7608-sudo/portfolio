@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css" rel="stylesheet" />
+
+  </head>
+</head>
+<body>
+    
+<nav class="bg-blue-800 w-full z-20 top-0 start-0 border-b border-default">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="https://flowbite.com/docs/images/logo.svg" class="h-7" alt="Flowbite Logo" />
+        <span class="self-center text-xl text-heading font-semibold whitespace-nowrap">Flowbite</span>
+    </a>
+    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary" aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/></svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+      <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-primary">
+        <li>
+          <a href="./index.html" class="block py-2 px-3 text-white bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0" aria-current="page">Home</a>
+        </li>
+        <li>
+          <a href="./abot.html" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">About</a>
+        </li>
+        <li>
+          <a href="./service.html" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Service</a>
+        </li>
+        <li>
+          <a href="./portfolio.html" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Protfolio</a>
+        </li>
+        <li>
+          <a href="./contact.html" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="relative bg-red-900 py-20 lg:py-32 overflow-hidden">
+    <div class="absolute inset-0 opacity-60">
+        <img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&q=80" class="w-full h-full object-cover" alt="Background">
+    </div>
+    <div class="relative max-w-screen-xl px-4 mx-auto text-center">
+        <h1 class="text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl mb-4">About Me</h1>
+        <p class="text-lg font-normal text-blue-100 lg:text-xl sm:px-16 xl:px-48">A brief look into my journey, my values, and the expertise I bring to the table.</p>
+    </div>
+</section>
+
+<section class="py-16 bg-white">
+    <div class="max-w-screen-xl px-4 mx-auto grid md:grid-cols-2 gap-12 items-center">
+        <div>
+            <h2 class="text-3xl font-bold text-gray-900 mb-6">Hello, I'm a Digital Solutions Architect</h2>
+            <p class="text-gray-600 mb-4 leading-relaxed">
+                I am a professional developer and designer dedicated to crafting high-quality digital experiences. For over 5 years, I have collaborated with diverse clients across the globe to turn complex ideas into functional, beautiful realities.
+            </p>
+            <p class="text-gray-600 mb-6 leading-relaxed">
+                My approach combines technical precision with a creative mindset. I believe in continuous learning and staying updated with the latest industry standards to provide the best value to my partners.
+            </p>
+            <div class="flex space-x-4">
+                <button class="px-6 py-2.5 bg-blue-800 text-white font-medium rounded-lg hover:bg-blue-900 transition shadow-md">Download CV</button>
+                <button class="px-6 py-2.5 border border-blue-800 text-blue-800 font-medium rounded-lg hover:bg-blue-50 transition">View Portfolio</button>
+            </div>
+        </div>
+        <div class="relative">
+            <img class="rounded-2xl shadow-2xl w-full object-cover h-96" src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80" alt="Biography Image">
+            <div class="absolute -bottom-6 -right-6 bg-blue-800 p-6 rounded-xl hidden lg:block shadow-xl">
+                <p class="text-white text-3xl font-bold">05+</p>
+                <p class="text-blue-100 text-sm">Years Experience</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-16 bg-gray-50">
+    <div class="max-w-screen-xl px-4 mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-gray-900">Technical Expertise</h2>
+            <p class="text-gray-500 mt-2">The core tools and technologies that power my projects</p>
+        </div>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div>
+                <div class="flex justify-between mb-1">
+                    <span class="text-base font-medium text-blue-800">Front-End Development</span>
+                    <span class="text-sm font-medium text-blue-800">95%</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                    <div class="bg-blue-800 h-2.5 rounded-full" style="width: 95%"></div>
+                </div>
+            </div>
+            <div>
+                <div class="flex justify-between mb-1">
+                    <span class="text-base font-medium text-blue-800">UI/UX Design</span>
+                    <span class="text-sm font-medium text-blue-800">88%</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                    <div class="bg-blue-800 h-2.5 rounded-full" style="width: 88%"></div>
+                </div>
+            </div>
+            <div>
+                <div class="flex justify-between mb-1">
+                    <span class="text-base font-medium text-blue-800">WordPress & CMS</span>
+                    <span class="text-sm font-medium text-blue-800">90%</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                    <div class="bg-blue-800 h-2.5 rounded-full" style="width: 90%"></div>
+                </div>
+            </div>
+            <div>
+                <div class="flex justify-between mb-1">
+                    <span class="text-base font-medium text-blue-800">Project Management</span>
+                    <span class="text-sm font-medium text-blue-800">82%</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                    <div class="bg-blue-800 h-2.5 rounded-full" style="width: 82%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-16 bg-white">
+    <div class="max-w-screen-xl px-4 mx-auto">
+        <h2 class="text-xl font-semibold text-center text-gray-500 uppercase tracking-widest mb-10">Trusted By Industry Leaders</h2>
+        <div class="grid grid-cols-2 gap-8 text-gray-400 sm:grid-cols-3 md:grid-cols-6 items-center opacity-60">
+            <div class="flex justify-center items-center grayscale hover:grayscale-0 transition">
+                <span class="font-black text-2xl">GOOGLE</span>
+            </div>
+            <div class="flex justify-center items-center grayscale hover:grayscale-0 transition">
+                <span class="font-black text-2xl">AMAZON</span>
+            </div>
+            <div class="flex justify-center items-center grayscale hover:grayscale-0 transition">
+                <span class="font-black text-2xl">SPOTIFY</span>
+            </div>
+            <div class="flex justify-center items-center grayscale hover:grayscale-0 transition">
+                <span class="font-black text-2xl">STRIPE</span>
+            </div>
+            <div class="flex justify-center items-center grayscale hover:grayscale-0 transition">
+                <span class="font-black text-2xl">AIRBNB</span>
+            </div>
+            <div class="flex justify-center items-center grayscale hover:grayscale-0 transition">
+                <span class="font-black text-2xl">DISNEY</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="bg-blue-800 rounded-base shadow-xs border border-default ">
+    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        
+        
+        <span class="block text-sm text-body sm:text-center">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.</span>
+    </div>
+</footer>
+
+
+
+
+<p id="clock"></p>
+
+<script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+
+</body>
+</html>
